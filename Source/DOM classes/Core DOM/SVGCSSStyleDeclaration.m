@@ -1,4 +1,4 @@
-#import "CSSStyleDeclaration.h"
+#import "SVGCSSStyleDeclaration.h"
 
 #import "CSSValue.h"
 #import "CSSValueList.h"
@@ -7,13 +7,13 @@
 
 #import "SVGKDefine_Private.h"
 
-@interface CSSStyleDeclaration()
+@interface SVGCSSStyleDeclaration()
 
 @property(nonatomic,strong) NSMutableDictionary* internalDictionaryOfStylesByCSSClass;
 
 @end
 
-@implementation CSSStyleDeclaration
+@implementation SVGCSSStyleDeclaration
 
 @synthesize internalDictionaryOfStylesByCSSClass;
 

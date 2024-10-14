@@ -23,7 +23,7 @@
 #import "CSSValue.h"
 #import "CSSRule.h"
 
-@interface CSSStyleDeclaration : NSObject
+@interface SVGCSSStyleDeclaration : NSObject
 
 /** NOTE: requires special treatment!
  

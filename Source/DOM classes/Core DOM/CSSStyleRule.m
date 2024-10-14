@@ -21,7 +21,7 @@
     if (self) {
         self.selectorText = selector;
 		
-		CSSStyleDeclaration* styleDeclaration = [[CSSStyleDeclaration alloc] init];
+        SVGCSSStyleDeclaration* styleDeclaration = [[SVGCSSStyleDeclaration alloc] init];
 		styleDeclaration.cssText = styleText;
 		
 		self.style = styleDeclaration;

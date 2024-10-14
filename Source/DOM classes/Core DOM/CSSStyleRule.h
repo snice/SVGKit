@@ -10,12 +10,12 @@
 #import <Foundation/Foundation.h>
 
 #import "CSSRule.h"
-#import "CSSStyleDeclaration.h"
+#import "SVGCSSStyleDeclaration.h"
 
 @interface CSSStyleRule : CSSRule
 
 @property(nonatomic,strong) NSString* selectorText;
-@property(nonatomic,strong) CSSStyleDeclaration* style;
+@property(nonatomic,strong) SVGCSSStyleDeclaration* style;
 
 #pragma mark - methods needed for ObjectiveC implementation
 

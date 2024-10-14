@@ -8,12 +8,12 @@
 #import <Foundation/Foundation.h>
 #import "DocumentStyle.h"
 
-#import "CSSStyleDeclaration.h"
+#import "SVGCSSStyleDeclaration.h"
 
 @class Element;
 
 @protocol DocumentCSS <DocumentStyle>
 
--(CSSStyleDeclaration *)getOverrideStyle:(Element *)element pseudoElt:(NSString *)pseudoElt;
+-(SVGCSSStyleDeclaration *)getOverrideStyle:(Element *)element pseudoElt:(NSString *)pseudoElt;
 
 @end
